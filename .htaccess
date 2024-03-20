@@ -1,0 +1,8 @@
+RewriteEngine On
+RewriteBase /
+
+# Přesměrování pro seznam chovaných zvířat
+RewriteRule ^animal-list$ animals.php [NC,L]
+
+# Přesměrování pro seznam zvířat, které chceme
+RewriteRule ^wanted-animal-list$ wanted_animals.php [NC,L]

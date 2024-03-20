@@ -1,0 +1,221 @@
+nav {
+    background-color: #333; /* Barva pozadí navigačního menu */
+    padding: 10px 0; /* Vnitřní odsazení (padding) */
+}
+
+nav ul {
+    list-style-type: none; /* Odstranění výchozího odrážek */
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline; /* Řádkové zobrazení položek menu */
+}
+
+nav ul li a {
+    color: #fff; /* Barva textu odkazů */
+    text-decoration: none; /* Odstranění podtržení */
+    padding: 10px 20px; /* Vnější odsazení (padding) */
+}
+
+nav ul li a:hover {
+    background-color: #555; /* Barva pozadí při najetí myší */
+}
+
+/* Styl pro odkazy pro přihlášeného uživatele */
+nav ul li a.logged-in {
+    background-color: #4CAF50; /* Zelená barva pro odkazy přihlášeného uživatele */
+}
+
+/* Styl pro odkazy pro nepřihlášeného uživatele */
+nav ul li a.not-logged-in {
+    background-color: #f44336; /* Červená barva pro odkazy nepřihlášeného uživatele */
+}
+
+/* Vizuální oddělení mezi jednotlivými položkami menu */
+nav ul li + li {
+    margin-left: 10px;
+}
+
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.nav-ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    overflow: hidden;
+}
+
+.nav-ul li {
+    float: left;
+}
+
+.nav-ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav-ul li a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+main {
+    padding: 20px;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.section h2 {
+    margin-bottom: 10px;
+}
+
+.section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.section li {
+    margin-bottom: 15px;
+}
+
+.section h2, .section p {
+    margin: 0;
+}
+
+footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Barvy */
+.nav-ul li a {
+    background-color: #333;
+}
+
+.nav-ul li a:hover {
+    background-color: #555;
+}
+/* Styling pro přihlašovací formulář */
+
+body {
+    font-family: Arial, sans-serif; /* Nastavení písma */
+    margin: 0; /* Odstranění vnějšího okraje */
+    padding: 0; /* Odstranění vnitřního odsazení */
+}
+
+h2 {
+    text-align: center; /* Zarovnání nadpisu na střed */
+}
+
+form {
+    width: 300px; /* Šířka formuláře */
+    margin: 0 auto; /* Zarovnání formuláře na střed */
+}
+
+label {
+    display: block; /* Každý label na novém řádku */
+    margin-bottom: 10px; /* Odsazení mezi jednotlivými labely */
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%; /* 100% šířka vstupního pole */
+    padding: 10px; /* Vnější odsazení (padding) */
+    margin-bottom: 15px; /* Odsazení mezi jednotlivými vstupními poli */
+}
+
+input[type="submit"] {
+    width: 100%; /* 100% šířka tlačítka */
+    padding: 10px; /* Vnější odsazení (padding) */
+    background-color: #4CAF50; /* Barva pozadí */
+    color: white; /* Barva textu */
+    border: none; /* Bez ohraničení */
+    cursor: pointer; /* Ukazatel ruky při najetí myší */
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049; /* Barva pozadí při najetí myší */
+}
+
+
+h2 {
+    text-align: center; /* Zarovnání nadpisu na střed */
+}
+
+form {
+    width: 300px; /* Šířka formuláře */
+    margin: 0 auto; /* Zarovnání formuláře na střed */
+}
+
+label {
+    display: block; /* Každý label na novém řádku */
+    margin-bottom: 10px; /* Odsazení mezi jednotlivými labely */
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%; /* 100% šířka vstupního pole */
+    padding: 10px; /* Vnější odsazení (padding) */
+    margin-bottom: 15px; /* Odsazení mezi jednotlivými vstupními poli */
+}
+
+input[type="submit"] {
+    width: 100%; /* 100% šířka tlačítka */
+    padding: 10px; /* Vnější odsazení (padding) */
+    background-color: #4CAF50; /* Barva pozadí */
+    color: white; /* Barva textu */
+    border: none; /* Bez ohraničení */
+    cursor: pointer; /* Ukazatel ruky při najetí myší */
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049; /* Barva pozadí při najetí myší */
+}
+
+/* Styling pro seznam chovaných zvířat */
+
+.animals {
+    list-style-type: none; /* Odstranění výchozího odrážek */
+    padding: 0; /* Odstranění vnitřního odsazení */
+}
+
+.animals li {
+    margin-bottom: 10px; /* Odsazení mezi jednotlivými položkami seznamu */
+    padding: 10px; /* Vnější odsazení (padding) */
+    border: 1px solid #ccc; /* Ohraničení každé položky seznamu */
+    background-color: #f9f9f9; /* Barva pozadí */
+}
+
+.btn-home {
+    background-color: #4CAF50; /* Zelená barva pozadí */
+    color: white; /* Bílá barva textu */
+    padding: 10px 20px; /* Vnitřní odsazení */
+    text-align: center; /* Zarovnání textu na střed */
+    text-decoration: none; /* Bez podtržení */
+    display: inline-block; /* Zobrazit jako blokový element */
+    border-radius: 5px; /* Zaoblené rohy */
+    transition: background-color 0.3s; /* Plynulá změna barvy pozadí */
+}
+
+.btn-home:hover {
+    background-color: #45a049; /* Změna barvy pozadí při najetí myší */
+}
